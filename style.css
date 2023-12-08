@@ -69,6 +69,11 @@ ul li {
     user-select: none;
     cursor:pointer;
     position:relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+ul li:hover {
+    transform: translateY(-2px);
 }
 
 ul li::before{
